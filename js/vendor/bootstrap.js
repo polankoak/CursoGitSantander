@@ -221,6 +221,7 @@ if (typeof jQuery === 'undefined') {
     }, this), 0)
   }
 
+
   Button.prototype.toggle = function () {
     var changed = true
     var $parent = this.$element.closest('[data-toggle="buttons"]')
